@@ -83,9 +83,3 @@ El proyecto esta pensado para **Intel Quartus Prime**:
 2. Verificar que los 5 archivos `.vhd` esten agregados al proyecto.
 3. Compilar (`Processing > Start Compilation`).
 4. Programar la FPGA con el archivo `.sof` generado.
-
-## Pendiente / posibles siguientes pasos
-
-- [ ] Testbench que simule la cadena completa: comando serial -> angulo -> PWM.
-- [ ] Documentar el mapeo exacto de pines en `pwmservo.qsf`.
-- [ ] Validacion del stop bit en `uart_rx` (actualmente se asume, no se verifica).
