@@ -1,6 +1,6 @@
 El sistema es una maquina de estados finita (FSM)  la cual interpreta comandos ASCII  recibidos byte a byte ( provenientes de un UART )  y genera el control del PanTilt que se mueve por medio de dos servomotores.
 
-![[command_parser_fsm.png]]
+![[ver3/command_parser_fsm.png]]
 ### 1. Proposito General
 
 El sistema recibe comandos con el siguiente formato 
